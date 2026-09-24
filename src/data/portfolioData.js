@@ -9,24 +9,25 @@ export const portfolioData = {
   // BASIC INFO — shown in the nav, hero, and browser tab
   // -------------------------------------------------------------------
   name: "NITHEESH GOWDA G S",
-  siteTitle: "NITHEESH GOWDA G S — Software Engineer Portfolio",
+  siteTitle: "NITHEESH GOWDA G S — Software Developer Portfolio",
   location: "BENGALURU, INDIA",
   available: true, // shows/hides the green "Available for opportunities" pill
 
   // Rotating titles typed out under your name in the hero
   roleTitles: [
-    "Software Engineer",
+    "Software Developer Intern",
     "Python Full-Stack Developer",
     "AI Engineer",
     "Problem Solver",
   ],
 
   summary:
-    "Motivated Artificial Intelligence and Data Science graduate with a strong " +
-    "foundation in Python, SQL, Machine Learning, and Full-Stack Web Development. " +
-    "Experienced in building AI-powered applications using Django, React, SQLite, " +
-    "and XGBoost. Passionate about developing scalable, data-driven solutions and " +
-    "continuously learning emerging technologies.",
+    "Software Developer Intern with hands-on experience in cloud cost optimization, " +
+    "application deployment, integrations, and full-stack development. Skilled in " +
+    "Python, SQL, JavaScript, React.js, Django, REST APIs, Docker, and Git. Strong " +
+    "foundation in Machine Learning, Data Structures, and full-stack development, " +
+    "with a passion for continuous learning, building scalable solutions, and " +
+    "collaborating effectively in dynamic environments.",
 
   // -------------------------------------------------------------------
   // CONTACT — reused in the hero, contact section, and footer
@@ -60,42 +61,62 @@ export const portfolioData = {
   // ABOUT — paragraphs shown top to bottom, plus skills/tools tags
   // -------------------------------------------------------------------
   aboutParagraphs: [
-    "I'm a Bachelor of Engineering graduate in Artificial Intelligence " +
-      "and Data Science from SDM Institute of Technology, Ujire. I am " +
-      "passionate about building intelligent, scalable, and user-friendly " +
-      "software solutions that solve real-world problems through AI and " +
-      "modern web technologies.",
+    "I'm a Software Developer Intern with a Bachelor of Engineering degree " +
+      "in Artificial Intelligence and Data Science from SDM Institute of " +
+      "Technology, Ujire. I am passionate about building scalable, user-friendly " +
+      "software solutions and solving real-world problems through modern " +
+      "web technologies and AI.",
 
-    "I have hands-on experience developing full-stack applications using " +
-      "Python, Django, Django REST Framework, React, SQL, and SQLite. " +
-      "My major project, an Energy Consumption Forecasting and Recommendation " +
-      "Agent, leverages XGBoost to deliver accurate energy predictions and " +
-      "AI-powered recommendations through an interactive web application.",
+    "I have hands-on experience working with Python, SQL, JavaScript, React.js, " +
+      "Django, REST APIs, Docker, and Git. At CloudPi, I have gained practical " +
+      "experience in cloud cost optimization, application deployment, Slack " +
+      "integrations, Dimension design and deployment, and end-to-end testing " +
+      "of application workflows.",
 
-    "I am a quick learner who enjoys exploring new technologies and " +
-      "continuously improving my skills. With a strong foundation in " +
-      "Python, Machine Learning, Data Structures, and Web Development, " +
-      "I am eager to contribute to innovative teams and grow as a Software " +
-      "or AI Engineer.",
+    "I also have experience building full-stack and AI-powered applications, " +
+      "including an Energy Consumption Forecasting and Recommendation Agent " +
+      "using XGBoost. I enjoy learning new technologies, improving my " +
+      "problem-solving skills, and contributing effectively in collaborative " +
+      "development environments."
   ],
 
   skills: [
     "Python",
-    "Django",
-    "DSA",
-    "HTML",
-    "CSS",
     "SQL",
+    "HTML & CSS",
+    "React",
+    "Django",
+    "REST APIs",
+    "JavaScript",
+    "Data Structures & Algorithms",
     "Artificial Intelligence",
     "Machine Learning",
-    "Java Script",
-    "React",
-    "Power BI",
-    "Tableau",
-    "Python Libraries",
+    "ML Libraries",
+    "AWS",
+    "Azure",
+    "Docker",
+    "GitHub",
+    "Power BI & Tableau",
+    "Figma",
+    "Analytical Tools",
   ],
 
-  tools: ["VS Code", "GitHub", "Jupyter Notebook", "Excel", "Figma"],
+  tools: [
+    "VS Code",
+    "Git & GitHub",
+    "Docker",
+    "MySQL",
+    "ClickHouse",
+    "DLT",
+    "Cube Core",
+    "Slack",
+    "AWS",
+    "Azure",
+    "Jupyter Notebook",
+    "Excel",
+    "Figma",
+    "AI Models",
+  ],
 
   education: [
     {
@@ -123,19 +144,51 @@ export const portfolioData = {
   // -------------------------------------------------------------------
   experience: [
     {
-      date: "Jan 2026 — Ongoing",
-      org: "Pentagon Space Pvt. Ltd.",
+      date: "Aug 2026 — Present",
+      org: "CloudPi (PurpleData Inc.)",
       location: "Bengaluru, Karnataka",
       status: "Onsite · Active",
+      title: "Software Developer Intern",
+      description:
+        "Gained hands-on experience working on a cloud cost optimization platform, " +
+        "understanding its architecture, workflows, and application functionality. " +
+        "Contributed to Slack integration development, Dimension design and deployment, " +
+        "and performed end-to-end testing for user management and other application " +
+        "workflows. Worked with Python, Node.js, React.js, REST APIs, MySQL, ClickHouse, " +
+        "Docker, Git/GitHub, AWS, and Azure in a collaborative development environment.",
+      tags: [
+        "Python",
+        "Node.js",
+        "React.js",
+        "REST APIs",
+        "MySQL",
+        "ClickHouse",
+        "Docker",
+        "Git/GitHub",
+        "AWS",
+        "Azure",
+      ],
+    },
+    {
+      date: "Feb 2026 — Jul 2026",
+      org: "Pentagon Space Pvt. Ltd.",
+      location: "Bengaluru, Karnataka",
+      status: "Onsite · Completed",
       title: "Python Full-Stack Development Intern",
       description:
-        "Completed hands-on training in Python Full-Stack Development, " +
-        "working with Python, SQL, HTML, CSS, JavaScript, and React. " +
-        "Built responsive web applications, strengthened problem-solving " +
-        "skills through real-world assignments, and gained practical " +
-        "experience in software development, database management, and " +
-        "version control using Git and GitHub.",
-      tags: ["Python", "Django", "HTML", "CSS", "JavaScript", "SQL"],
+        "Completed a project-based Python Full-Stack Development training internship " +
+        "focused on web application development. Gained hands-on experience with Python, " +
+        "SQL, Django, React.js, JavaScript, HTML, CSS, and REST API fundamentals.",
+      tags: [
+        "Python",
+        "SQL",
+        "Django",
+        "React.js",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "REST APIs",
+      ],
     },
   ],
 
@@ -161,6 +214,7 @@ export const portfolioData = {
         "React",
         "SQLite",
         "JWT",
+        "Pandas",
         "XGBoost",
         "Recharts",
       ],
@@ -171,6 +225,28 @@ export const portfolioData = {
     },
     {
       num: "02",
+      category: "Full-Stack Web Application",
+      title: "SmartConnect",
+      description:
+        "Independently developed a full-stack college management system with " +
+        "dedicated Admin, Teacher, and Student portals. Implemented data " +
+        "visualization features using Matplotlib and integrated a job portal " +
+        "to support academic management and career-related functionality.",
+      tags: [
+        "Python",
+        "Django",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "SQLite",
+        "Matplotlib",
+      ],
+      codeUrl: "https://github.com/Nitheeshsiddegowda/SmartConnect",
+      demoUrl: "",
+      featured: false,
+    },
+    {
+      num: "03",
       category: "Python · Automation",
       title: "PdfTalker (PDF to Audio Converter)",
       description:
@@ -185,18 +261,37 @@ export const portfolioData = {
       featured: false,
     },
     {
-      num: "03",
-      category: "Full-Stack Web Application",
-      title: "SmartConnect - College Management System",
+      num: "04",
+      category: "AI · Full-Stack Web Application",
+      title: "Quiz Agent",
       description:
-        "Developed a comprehensive college management system with dedicated " +
-        "portals for management, teachers, and students. The platform " +
-        "supports attendance management, leave applications, academic " +
-        "records, and an integrated job portal where management can post " +
-        "placement opportunities and eligible students can apply based on " +
-        "defined criteria, providing a centralized solution for campus administration.",
-      tags: ["Python", "Django", "HTML", "CSS", "JavaScript", "SQLite"],
-      codeUrl: "https://github.com/Nitheeshsiddegowda/SmartConnect",
+        "A quiz application designed to extract multiple-choice questions from " +
+        "uploaded PDF documents, store structured questions, and provide a " +
+        "timed quiz experience.",
+      tags: ["Python", "Django", "PDF Processing", "JavaScript"],
+      codeUrl: "https://github.com/Nitheeshsiddegowda/Quiz_Agent_",
+      demoUrl: "",
+      featured: false,
+    },
+    {
+      num: "05",
+      category: "Machine Learning",
+      title: "T20 Match Winner and Score Predictor",
+      description:
+        "Machine learning project for predicting T20 match outcomes and scores.",
+      tags: ["Python", "Machine Learning"],
+      codeUrl: "",
+      demoUrl: "",
+      featured: false,
+    },
+    {
+      num: "06",
+      category: "Web Application",
+      title: "Sonic Cart",
+      description:
+        "Web-based project developed as part of the user's application portfolio.",
+      tags: [],
+      codeUrl: "",
       demoUrl: "",
       featured: false,
     },
@@ -206,6 +301,18 @@ export const portfolioData = {
   // CERTIFICATIONS
   // -------------------------------------------------------------------
   certifications: [
+    {
+      icon: "☁️",
+      name: "AWS Certified Cloud Practitioner",
+      issuer: "Amazon Web Services",
+      year: "2026",
+    },
+    {
+      icon: "💰",
+      name: "FOCUS (FinOps)",
+      issuer: "FinOps",
+      year: "2026",
+    },
     {
       icon: "💼",
       name: "Python Full-Stack Development Internship",
@@ -287,30 +394,19 @@ export const portfolioData = {
         "to perform under pressure.",
     },
     {
-      emoji: "🎓",
-      title: "Google Cybersecurity Professional Certificate",
+      emoji: "🎯",
+      title: "Problem Solving & Continuous Learning",
       description:
-        "Successfully completed Google's 8-course Cybersecurity " +
-        "Professional Certificate, gaining practical knowledge of " +
-        "Python, Linux, SQL, SIEM tools, IDS, and cybersecurity " +
-        "fundamentals.",
+        "Passionate about learning new technologies, strengthening technical " +
+        "and problem-solving skills, and continuously improving through " +
+        "hands-on software development projects.",
     },
     {
-      emoji: "💼",
-      title: "Python Full-Stack Internship",
-      description:
-        "Successfully completed an onsite Python Full-Stack Development " +
-        "Internship at Pentagon Space Pvt. Ltd., gaining hands-on " +
-        "experience in Python, SQL, React, web technologies, Git, and " +
-        "real-world software development practices.",
-    },
-    {
-      emoji: "🏏",
+      emoji: "🎬",
       title: "Hobbies & Interests",
       description:
         "Enjoy playing cricket and basketball, traveling to new places, " +
-        "and following movies and sports. These activities help me stay " +
-        "active, improve teamwork, and maintain a healthy work-life balance.",
+        "and following movies and sports.",
     },
   ],
 };
